@@ -228,8 +228,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/mainpic.jpg") top center;
-  background-size: cover;
+  background: url("../img/bg analysis.jpg") top left ;
+  background-size: 100% 100%;
 }
 
 #hero:before {
@@ -372,6 +372,16 @@ section {
   padding-bottom: 30px;
 }
 
+.facts .known{
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #122f57;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
 .facts .count-box {
   padding: 30px;
   width: 100%;
@@ -417,7 +427,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
