@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-}
+} 
 
 a {
   color: #149ddd;
@@ -29,6 +29,17 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Added padding to sections for better spacing */
+section {
+  padding: 80px 0; 
+  overflow: hidden;
+}
+
+.section-title h2 {
+  font-family: "Raleway", sans-serif;
   font-family: "Raleway", sans-serif;
 }
 
@@ -293,7 +304,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* Removed default section padding and added it to general section styles */
   padding: 60px 0;
   overflow: hidden;
 }
@@ -363,12 +374,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
+
 
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts {
+/* Adjusted padding for Facts section */
   padding-bottom: 30px;
 }
 
@@ -448,6 +459,7 @@ section {
   width: 11.875rem;
   height: 11.25rem;
 }
+
 
 
 .skills .progress {
@@ -559,6 +571,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+/* Added slight margin to portfolio items */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -725,6 +738,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+/* Adjusted margin for services icon box */
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -872,6 +886,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+/* Increased bottom padding for Contact section */
 .contact {
   padding-bottom: 130px;
 }
@@ -1064,6 +1079,7 @@ section {
   }
 }
 
+/* Added some basic styling for breadcrumbs, potentially remove if not needed in new design */
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
